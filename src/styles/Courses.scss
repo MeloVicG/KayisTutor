@@ -1,0 +1,29 @@
+
+
+
+.about-header{
+    // display: flex;
+    // justify-content: space-evenly;
+    margin: 5% 15% 10% 15%;
+    .boxes{
+        p{
+        text-align: center;
+        margin: 5%;
+        padding: 20px 5px;
+        border: solid 1px black ;
+        background-color: white;
+        color: black;
+        // margin:10px;
+        box-shadow: -1px -1px 10px black;
+        }
+
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            height: 20%;
+            width: 20%;
+        }
+        
+    }
+}

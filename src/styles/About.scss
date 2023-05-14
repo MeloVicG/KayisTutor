@@ -1,0 +1,23 @@
+.about-head{
+    img{
+        height: 15%;
+        width: 15%; 
+    }
+}
+
+.about-footer {
+    display: flex;
+    justify-content: Center;
+    justify-content: space-around;
+    border-bottom: black solid 1px;
+
+    .boxes{
+        border: solid 1px black ;
+        background-color: white;
+        color: black;
+        margin:10px;
+        box-shadow: -1px -1px 10px black;
+        
+    }
+
+}
