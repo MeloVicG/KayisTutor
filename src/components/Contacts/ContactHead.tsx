@@ -32,15 +32,15 @@ export const ContactHead: React.FC = () => {
                     <br />
                     <div className="form-check">
                         <label className="form-check-label" htmlFor="exampleCheck1" style={{ marginLeft: '-85%' }}>Chinese</label>
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                        <input type="checkbox" value="chinese" className="form-check-input" id="chineseCheck" />
                     </div>
                     <div className="form-check">
                         <label className="form-check-label" htmlFor="exampleCheck1" style={{ marginLeft: '-85%' }}>English</label>
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                        <input type="checkbox" value="english" className="form-check-input" id="englishCheck" />
                     </div>
                     <div className="form-check">
                         <label className="form-check-label" htmlFor="exampleCheck1" style={{ marginLeft: '-85%' }}>Babysit</label>
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                        <input type="checkbox" value="babysit" className="form-check-input" id="babysitCheck" />
                     </div>
                     <select name="kidsNumber" id="kidsNumber">
                         <option value="" >How Many Children?</option>
