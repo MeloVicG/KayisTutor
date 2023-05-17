@@ -12,9 +12,9 @@ export const Navbar = () => {
 
     return (
         <div className='navBar'>
-            <Link className='link' to="/">Dashboard</Link>,
-            <Link className='link' to="/about">About</Link>,
-            <Link className='link' to="/courses">Courses</Link>,
+            <Link className='link' to="/">Dashboard</Link>
+            <Link className='link' to="/about">About</Link>
+            <Link className='link' to="/courses">Courses</Link>
             <Link className='link' to="/Contact">Contact</Link>        
         </div>
     )
